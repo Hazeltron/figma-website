@@ -1,0 +1,33 @@
+hero {
+	display: block;
+	padding: 120px 80px 120px 80px;
+}
+
+hero button-box {
+	display: block;
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+@media(min-width: 600px) {
+
+	hero {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	hero p {
+		text-align: center;
+	}
+
+	hero button-box {
+		display: block;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 20px;
+	}
+
+}

@@ -1,0 +1,42 @@
+
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+/*	background-color: var(--paper);*/
+/*	background-image: linear-gradient(to left, rgba(12,24,38,1), rgba(255,255,255,0));*/
+}
+
+main {
+/*	border: black 3px solid;*/
+	flex-grow: 1;
+
+}
+inner-column {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+}
+
+nav li {
+	display: inline-block;
+	color: black;
+	margin-left: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+picture {
+    display: block;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height:auto;
+}

@@ -1,0 +1,9 @@
+html{
+	--ink: #000000;
+	--light-ink: #757575;
+	--paper: #ffffff;
+	--highlight: #3250db;
+
+	--primary-font: 'Inter', helvetica;
+	--secondary-font: 'Inter', helvetica;
+}

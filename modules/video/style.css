@@ -1,0 +1,21 @@
+video-module {
+	display: block;
+	padding: 120px 80px 120px 80px;
+}
+
+.video video-module iframe {
+	width: 100%;
+	aspect-ratio: 16/9;
+
+}
+@media (min-width: 600px) {
+	.video video-module {
+		display: block;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+
+}

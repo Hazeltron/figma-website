@@ -1,0 +1,58 @@
+grid-list-container{
+	display: block;
+	padding: 120px 80px 120px 80px;
+}
+
+grid-list-container .list-icons{
+	max-width: 40px;
+}
+
+grid-list-container li{
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+
+grid-list-container .list-copy {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 600px) {
+	grid-list-container {
+		display: block;
+		display: grid;
+		grid-template-areas: 
+		"diptych list"
+		;
+	}
+
+	grid-list-container graphic-diptych {
+		grid-area: diptych;
+	}
+
+	grid-list-container ul {
+		grid-area: list;
+	}
+
+	grid-list-container li{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		
+	}
+
+	grid-list-container .list-copy{
+		display: flex;
+		flex-direction: column;
+		
+
+	}
+
+}
+
+/*wavy 
+hide optional-p*/
+

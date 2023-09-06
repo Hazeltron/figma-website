@@ -1,0 +1,35 @@
+client-talk {
+	display: block;
+	padding: 120px 80px 120px 80px;
+}
+scroll-gallery {
+	display: block;
+}
+
+client-talk header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+client-talk .client-icon {
+	max-width: 20px;
+}
+
+client-talk .client-photo {
+	max-width: 20px;
+}
+
+client-talk li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+@media (min-width: 600px) {
+	client-talk ul {
+		display: flex;
+		flex-direction: row;
+	}
+}
