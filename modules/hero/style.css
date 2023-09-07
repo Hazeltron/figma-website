@@ -1,27 +1,55 @@
-hero {
+.hero hero {
 	display: block;
+	height: 40vh;
+	background-image: url('../../assets/default.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-hero button-box {
+
+
+.hero hero button-box {
 	display: block;
 	display: flex;
 	flex-direction: row;
 	gap: 20px;
 }
 
+.hero input{
+	display: none;
+}
+
+.hero button-box .signup {
+	display: none;
+}
+
+.hero button-box .get-started {
+	background-color: var(--highlight);
+	padding: 10px;
+	color: white;
+}
+
+.hero button-box .trial {
+	background-color: white;
+	padding: 10px;
+}
+
 @media(min-width: 600px) {
 
-	hero {
+	.hero hero {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		padding: 120px;
+		height: 50vh;
 	}
 
-	hero p {
+	.hero hero p {
 		text-align: center;
 	}
 
-	hero button-box {
+	.hero hero button-box {
 		display: block;
 		display: flex;
 		flex-direction: row;
@@ -30,3 +58,59 @@ hero button-box {
 	}
 
 }
+
+/*wavy page*/
+
+.hero.wavy-hero hero {
+	display: block;
+	background-image: url('../../assets/wavy.png');
+	background-position: bottom;
+}
+
+.hero.wavy-hero .trial {
+	display: none;
+}
+
+
+
+/*Color page*/
+.hero.color-hero hero {
+	display: block;
+	background-image: url('../../assets/color.png');
+	background-position: bottom;
+	color: white;
+}
+
+.hero.color-hero .trial {
+	display: none;
+}
+
+.hero.color-hero .get-started {
+	display: none;
+}
+
+.hero.color-hero .signup {
+	display: block;
+	background-color: white;
+	color: var(--highlight);
+	padding: 10px;
+}
+
+.hero.color-hero input {
+	display: block;
+}
+.hero.color-hero hero button-box {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+
+}
+@media(min-width: 600px) {
+	.hero.color-hero hero button-box {
+		justify-content: center;
+	}
+}
+
+	
+
+
