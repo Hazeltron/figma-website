@@ -1,1 +1,14 @@
-video.json
+[
+	{
+		"header":"Product 1",
+		"copy":"Come get this ultra-cool thing we're selling! It'll be great"
+	},
+	{
+		"header":"Product 1",
+		"copy":"Come get this ultra-cool thing we're selling! It'll be great"
+	},
+	{
+		"header":"Product 1",
+		"copy":"Come get this ultra-cool thing we're selling! It'll be great"
+	}
+]
