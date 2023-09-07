@@ -1,8 +1,104 @@
-simple-cta {
+.traditional-cta simple-cta {
 	display: block;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	background-color: red;
+	
 }
+
+.traditional-cta text-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.traditional-cta .quotes{
+	background-color: var(--highlight);
+	color: white;
+	padding: 10px;
+}
+
+.traditional-cta input {
+	display: none;
+}
+
+.traditional-cta picture {
+	display: none;
+}
+
+.traditional-cta .optional-link{
+	display: none;
+	padding: 10px;
+}
+
+
+
+/*Wavy page*/
+
+.traditional-cta.wavy-cta .optional-link {
+	display: block;
+}
+
+.traditional-cta.wavy-cta button-control {
+	display: flex;
+	flex-direction: row;
+	gap: 10em;
+}
+
+
+
+/*Color page*/
+
+.traditional-cta.color-cta input{
+	display: block;
+
+}
+
+.traditional-cta.color-cta picture{
+	display: block;
+
+}
+
+.traditional-cta.color-cta simple-cta {
+		display: grid;
+		grid-template-areas:
+			"picture" 
+			"text"
+			"buttons"
+		;
+}
+
+.traditional-cta.color-cta text-content{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-start;
+	text-align: left;
+	grid-area: text;
+}
+
+.traditional-cta.color-cta picture{
+	grid-area: picture;
+}
+
+.traditional-cta.color-cta button-control{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	grid-area: buttons;
+}
+@media (min-width: 600px) {
+	.traditional-cta.color-cta simple-cta {
+		display: grid;
+		grid-template-areas: 
+			"text	picture"
+			"buttons	picture"
+		;
+
+
+	}
+
+}
+
+
+
