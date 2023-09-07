@@ -7,7 +7,7 @@
 		<h2 class="attention-voice">Lorem ipsum dolor sit amet.</h2>
 		<p class="calm-voice">Lorem ipsum dolor sit, amet.</p>
 		<picture>
-			<img src="assets/square.png" alt="">
+			<img class="main-image" src="assets/square.png" alt="">
 		</picture>
 
 	</graphic-diptych>
@@ -27,9 +27,7 @@
 			</picture>
 			<div class="list-copy">
 
-			<h3 class="strong-voice"><?=$product['heading']?></h3>
-			
-			
+				<h3 class="strong-voice"><?=$product['heading']?></h3>
 			
 				<p class="calm-voice"><?=$product['copy']?></p>
 			</div>

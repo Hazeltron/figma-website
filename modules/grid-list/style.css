@@ -2,24 +2,28 @@ grid-list-container{
 	display: block;
 }
 
-grid-list-container .list-icons{
+.grid-list .optional-p {
+	display: none;
+}
+
+.grid-list .list-icons{
 	max-width: 40px;
 }
 
-grid-list-container li{
+.grid-list li{
 	display: flex;
 	flex-direction: column;
 	
 	
 }
 
-grid-list-container .list-copy {
+.grid-list .list-copy {
 	display: flex;
 	flex-direction: column;
 }
 
 @media (min-width: 600px) {
-	grid-list-container {
+	.grid-list grid-list-container {
 		display: block;
 		display: grid;
 		grid-template-areas: 
@@ -27,23 +31,24 @@ grid-list-container .list-copy {
 		;
 	}
 
-	grid-list-container graphic-diptych {
+	.grid-list grid-list-container graphic-diptych {
 		grid-area: diptych;
 	}
 
-	grid-list-container ul {
+	.grid-list grid-list-container li {
 		grid-area: list;
 	}
 
-	grid-list-container li{
+	.grid-list grid-list-container li{
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
 		
+		
 	}
 
-	grid-list-container .list-copy{
+	.grid-list grid-list-container .list-copy{
 		display: flex;
 		flex-direction: column;
 		
@@ -52,6 +57,99 @@ grid-list-container .list-copy {
 
 }
 
-/*wavy 
-hide optional-p*/
+/*Wavy page*/
+
+.grid-list.wavy-grid-list .main-image {
+	display: none;
+}
+
+
+
+@media (min-width: 600px) {
+	.grid-list.wavy-grid-list grid-list-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.grid-list.wavy-grid-list graphic-diptych {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.grid-list.wavy-grid-list ul{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 40px;
+
+		
+	}
+	.grid-list.wavy-grid-list li{
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		max-width: 250px;
+		
+		
+		
+	}
+}
+
+/*Color page*/
+.grid-list.color-grid-list .main-image {
+	display: none;
+}
+
+.grid-list.color-grid-list .optional-p {
+	display: block;
+}
+
+.grid-list.color-grid-list graphic-diptych {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.grid-list.color-grid-list li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+
+@media (min-width: 600px) {
+	.grid-list.color-grid-list grid-list-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.grid-list.color-grid-list graphic-diptych {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.grid-list.color-grid-list ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 40px;	
+	}
+
+	.grid-list.color-grid-list li {
+		max-width: 250px;
+	}
+}
+
+
 
