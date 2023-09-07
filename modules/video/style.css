@@ -1,5 +1,6 @@
 video-module {
 	display: block;
+	padding: 20px;
 }
 
 .video video-module iframe {
@@ -7,6 +8,23 @@ video-module {
 	aspect-ratio: 16/9;
 
 }
+
+.video .icon-top{
+	display: none;
+}
+
+.video ul{
+	display: none;
+}
+
+.video button-control {
+	display: none;
+}
+
+.video bottom-text-content {
+	display: none;
+}
+
 @media (min-width: 600px) {
 	.video video-module {
 		display: block;
@@ -18,3 +36,91 @@ video-module {
 
 
 }
+
+/*Wavy page*/
+.video.wavy-video .optional-p {
+	margin-top: 10px;
+}
+
+.video.wavy-video .video-iframe {
+	display: none;
+}
+
+.video.wavy-video .see-link {
+	display: none;
+}
+
+.video.wavy-video button-control{
+	display: block;
+	margin-top: 20px;
+} 
+
+.video.wavy-video .learn-link{
+	color: var(--highlight);
+}
+
+.video.wavy-video .icon-top {
+	display: block;
+	max-width: 30px;
+
+}
+
+.video.wavy-video bottom-text-content{
+	display: block;
+	margin-top: 40px;
+}
+
+@media (min-width: 600px) {
+	.video.wavy-video bottom-text-content{
+		display: block;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+}
+
+
+/*Color page*/
+
+.video.color-video .default-p{
+	display: none;
+}
+
+.video.color-video .video-iframe {
+	display: none;
+}
+
+.video.color-video .learn-link {
+	display: none;
+}
+
+.video.color-video ul {
+	display: block;
+	margin-top: 20px;
+}
+
+.video.color-video button-control {
+	display: block;
+	color: var(--highlight);
+}
+
+@media (min-width: 600px) {
+	.video.color-video list-area {
+		display: flex;
+		flex-direction: row;
+		gap: 10px;
+
+	}
+
+	.video.color-video list-area li {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+
+	}
+}
+
+
