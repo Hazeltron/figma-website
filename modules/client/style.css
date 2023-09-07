@@ -1,34 +1,149 @@
 client-talk {
 	display: block;
 }
+
 scroll-gallery {
 	display: block;
 }
 
-client-talk header{
+client-info {
+	display: block;
+}
+
+.clients ul picture:nth-of-type(1) {
+	display: none;
+}
+
+.clients ul picture:nth-of-type(2) {
+	display: none;
+}
+
+.clients client-info picture:nth-of-type(1) {
+	display: block;
+}
+
+
+.clients ul p:nth-of-type(2) {
+	display: none;
+}
+
+.clients ul p:nth-of-type(3) {
+	display: none;
+}
+
+.clients header{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
 }
-client-talk .client-icon {
+.clients .client-icon {
 	max-width: 20px;
 }
 
-client-talk .client-photo {
+.clients .client-photo {
 	max-width: 20px;
 }
 
-client-talk li {
+.clients li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+}
+
+.clients client-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 @media (min-width: 600px) {
-	client-talk ul {
+	.clients ul {
 		display: flex;
 		flex-direction: row;
+		gap: 20px;
+		padding: 20px;
 	}
 }
+
+
+/*Wavy page*/
+.clients.wavy-clients li:nth-of-type(2) {
+	display: none;
+}
+
+.clients.wavy-clients ul p:nth-of-type(2) {
+	display: block;
+}
+
+
+
+.clients.wavy-clients .client-photo {
+	display: none;
+}
+
+
+.clients.wavy-clients ul picture {
+	display: none;
+}
+
+.clients.wavy-clients client-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+@media (min-width: 600px) {
+	.clients.wavy-clients ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 0px;
+		text-align: center;
+	}
+	.clients.wavy-clients client-info {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.clients.wavy-clients .client-info-text {
+		display: flex;
+		flex-direction: column;
+	}
+
+}
+
+/*Color page*/
+
+.clients.color-clients li:nth-of-type(2) {
+	display: none;
+}
+
+.clients.color-clients ul picture:nth-of-type(1) {
+	display: block;
+}
+
+.clients.color-clients ul picture:nth-of-type(2) {
+	display: none;
+}
+
+.clients.color-clients client-info picture:nth-of-type(1) {
+	display: none;
+}
+
+.clients.color-clients ul p:nth-of-type(1) {
+	display: none;
+}
+
+.clients.color-clients ul p:nth-of-type(2) {
+	display: none;
+}
+
+.clients.color-clients ul p:nth-of-type(3) {
+	display: block;
+}
+
+
