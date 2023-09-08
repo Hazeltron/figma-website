@@ -1,6 +1,7 @@
 
-questions-container {
+.questions questions-container {
 	display: block;
+	margin: 40px 0px 40px 0px;
 	
 }
 
@@ -11,6 +12,10 @@ questions-dropdown {
 
 .questions li {
 	border-bottom: solid 1px dimgray;
+}
+
+.questions questions-dropdown {
+	margin-top: 40px;
 }
 .questions questions-dropdown .icon{
 	max-width: 20px;
@@ -42,6 +47,18 @@ questions-dropdown {
 	flex-direction: row;
 }
 
+@media (min-width: 600px) {
+	.questions questions-container {
+		margin: 80px 0px 80px 0px;
+	
+	}
+
+	.questions questions-dropdown {
+		margin-top: 60px;
+	}
+
+}
+
 /*Wavy page*/
 
 .questions.wavy-questions .question-title {
@@ -64,6 +81,7 @@ questions-dropdown {
 @media (min-width: 600px) {
 	.questions.color-questions questions-container {
 		display: grid;
+		gap: 40px;
 		grid-template-areas: 
 			".	list"
 			"title	list"
@@ -77,6 +95,7 @@ questions-dropdown {
 
 	.questions.color-questions questions-dropdown {
 		grid-area: list;
+		margin-top: 0px;
 	}
 
 }

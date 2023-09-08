@@ -1,6 +1,6 @@
-client-talk {
+.clients client-talk {
 	display: block;
-	padding: 20px;
+	margin: 40px 0px 40px 0px;
 }
 
 scroll-gallery {
@@ -10,9 +10,7 @@ scroll-gallery {
 client-info {
 	display: block;
 }
-.clients{
-	padding: 20px;
-}
+
 .clients ul picture:nth-of-type(1) {
 	display: none;
 }
@@ -59,9 +57,20 @@ client-info {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-top: 10px;
 }
 
 @media (min-width: 600px) {
+
+	.clients client-talk {
+		display: block;
+		margin: 80px 0px 80px 0px;
+	}
+
+	.clients scroll-gallery{
+		margin-top: 60px;
+	}
+
 	.clients ul {
 		display: flex;
 		flex-direction: row;
@@ -147,6 +156,17 @@ client-info {
 
 .clients.color-clients ul p:nth-of-type(3) {
 	display: block;
+}
+
+.clients.color-clients picture{
+	margin-top: 40px;
+}
+
+@media (min-width: 600px) {
+	.clients.color-clients picture{
+	margin-top: 0px;
+}
+
 }
 
 

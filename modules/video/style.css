@@ -1,12 +1,13 @@
 
-video-module {
+.video video-module {
 	display: block;
-	padding: 20px;
+	padding: 40px 0px 40px 0px;
 }
 
 .video video-module iframe {
 	width: 100%;
 	aspect-ratio: 16/9;
+	margin-top: 60px;
 
 }
 
@@ -20,6 +21,7 @@ video-module {
 
 .video button-control {
 	display: none;
+	margin-top: 30px;
 }
 
 .video bottom-text-content {
@@ -33,6 +35,12 @@ video-module {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		padding: 80px 0px 80px 0px;
+	}
+
+	.video button-control {
+		display: none;
+		margin-top: 50px;
 	}
 
 
@@ -53,7 +61,6 @@ video-module {
 
 .video.wavy-video button-control{
 	display: block;
-	margin-top: 20px;
 } 
 
 .video.wavy-video .learn-link{
@@ -99,7 +106,11 @@ video-module {
 
 .video.color-video ul {
 	display: block;
-	margin-top: 20px;
+	margin-top: 30px;
+}
+
+.video.color-video list-area li {
+	margin-top: 10px;
 }
 
 .video.color-video button-control {
@@ -111,8 +122,13 @@ video-module {
 	.video.color-video list-area {
 		display: flex;
 		flex-direction: row;
-		gap: 10px;
+		gap: 20px;
 
+	}
+
+	.video.color-video ul {
+		display: block;
+		margin-top: 60px;
 	}
 
 	.video.color-video list-area li {
@@ -120,6 +136,7 @@ video-module {
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
+
 
 	}
 }
