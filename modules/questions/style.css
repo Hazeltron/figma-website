@@ -1,6 +1,3 @@
-.questions {
-
-}
 
 questions-container {
 	display: block;
@@ -12,24 +9,74 @@ questions-dropdown {
 
 }
 
-questions-dropdown .icon{
+.questions li {
+	border-bottom: solid 1px dimgray;
+}
+.questions questions-dropdown .icon{
 	max-width: 20px;
 }
 
-questions-container header{
+.questions .frequently-asked{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+}
+
+.questions questions-container .question-title{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
 
 }
 
-questions-container li {
+.questions questions-container li {
 	display: flex;
 	flex-direction: column;
 }
 
-questions-container .question-title {
+.questions questions-container .question-title {
 	display: flex;
 	flex-direction: row;
+}
+
+/*Wavy page*/
+
+.questions.wavy-questions .question-title {
+	display: flex;
+	
+	justify-content: space-between;
+}
+
+.questions.wavy-questions questions-dropdown p {
+	border-left: solid 2px var(--highlight);
+	margin-left: 40px;
+}
+
+/*Color page*/
+.questions.color-questions .frequently-asked {
+	align-items: flex-start;
+	text-align: left;
+}
+
+@media (min-width: 600px) {
+	.questions.color-questions questions-container {
+		display: grid;
+		grid-template-areas: 
+			".	list"
+			"title	list"
+			".	list"
+		;
+	}
+
+	.questions.color-questions .frequently-asked {
+		grid-area: title;
+	}
+
+	.questions.color-questions questions-dropdown {
+		grid-area: list;
+	}
+
 }
