@@ -1,0 +1,14 @@
+.button-default {
+	background-color: white;
+	color: var(--highlight);
+	padding: 10px;
+	border: black solid 1px;
+
+}
+
+.button-color {
+	background-color: var(--highlight);
+	color: white;
+	padding: 10px;
+	
+}
