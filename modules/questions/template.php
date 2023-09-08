@@ -1,6 +1,6 @@
 
 <questions-container>
-	<header>
+	<header class="frequently-asked">
 		<h2 class="attention-voice">frequently asked questions</h2>
 		<p class="calm-voice">Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Tempora, suscipit.</p>
 	</header>
