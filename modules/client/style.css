@@ -1,5 +1,6 @@
 client-talk {
 	display: block;
+	padding: 20px;
 }
 
 scroll-gallery {
@@ -9,7 +10,9 @@ scroll-gallery {
 client-info {
 	display: block;
 }
-
+.clients{
+	padding: 20px;
+}
 .clients ul picture:nth-of-type(1) {
 	display: none;
 }
