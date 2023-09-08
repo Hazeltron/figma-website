@@ -36,7 +36,7 @@
 
 					<ul>
 						<li>
-							<a href="index.php">home</a>
+							<a href="../index.php">home</a>
 						</li>
 
 						<li>
