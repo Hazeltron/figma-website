@@ -3,5 +3,6 @@
 @import 'settings.css';
 @import 'structure.css';
 @import 'type.css';
+@import 'components.css';
 @import 'modules.css';
 @import 'developer-tools.css';
