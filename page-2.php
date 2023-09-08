@@ -51,7 +51,6 @@
 	</inner-column>
 </section>
 
-
 </main>
 <section class="footer wavy-footer">
 	<inner-column>

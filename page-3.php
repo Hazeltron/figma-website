@@ -37,6 +37,13 @@
 	</inner-column>
 </section>
 
+<section class="questions color-questions">
+	<inner-column>
+<?php include('modules/questions/template.php')?>
+	
+	</inner-column>
+</section>
+
 <section class="traditional-cta color-cta">
 	<inner-column>
 <?php include('modules/traditional-cta/template.php')?>
@@ -44,12 +51,6 @@
 	</inner-column>
 </section>
 
-<section class="questions color-questions">
-	<inner-column>
-<?php include('modules/questions/template.php')?>
-	
-	</inner-column>
-</section>
 
 
 </main>
