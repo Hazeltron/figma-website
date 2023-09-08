@@ -6,9 +6,9 @@
 
 	<button-box>
 
-		<a class="get-started" href="#">get started</a>
-		<a class="trial" href="#">start free trial</a>
-		<a class="signup" href="">signup</a>
+		<a class="get-started button-color" href="#">get started</a>
+		<a class="trial button-default" href="#">start free trial</a>
+		<a class="signup button-default" href="">signup</a>
 		<input type="text" placeholder="Email Adress">
 		
 	</button-box>
