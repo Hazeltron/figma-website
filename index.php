@@ -1,4 +1,12 @@
-<?php include('modules/header/index.php') ?>
+<section class="header">
+	<inner-column>
+		<?php include('modules/header/index.php') ?>
+		
+	</inner-column>
+	
+</section>
+
+
 
 <section class="hero">
 	<inner-column>
