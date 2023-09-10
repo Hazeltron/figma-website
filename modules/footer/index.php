@@ -2,87 +2,58 @@
 	<site-map>
 	
 		<nav class='site-menu'>
+
+			<!-- change to json loop -->
 			<ul>
 				<li>
-					<a href='#'>
-						
-					</a>
+					<h3 class="strong-voice">product</h3>
+					<a href="#">Lorem ipsum dolor sit.</a>
+					<a href="#">Lorem ipsum dolor sit.</a>
+					<a href="#">Lorem ipsum dolor sit.</a>
+					<a href="#">Lorem ipsum dolor sit.</a>
+					<a href="#">Lorem ipsum dolor sit.</a>
+					<a href="#">Lorem ipsum dolor sit.</a>
 				</li>
-
-				<li>
-					<a href='#'>Some page</a>
-				</li>
-
-				<li>
-					<a href='#'>Some other page</a>
-				</li>
+				
+				
 			</ul>
-		</nav>
-
-		<nav class='x-menu'>
-			<h3 class='strong-voice'>Menu heading here</h3>
 
 			<ul>
 				<li>
-					<a href='#'>Some page</a>
-				</li>
-
-				<li>
-					<a href='#'>Some page</a>
-				</li>
-
-				<li>
-					<a href='#'>Some other page</a>
-				</li>
-
-				<li>
-					<a href='#'>Some page</a>
+					<h3 class="strong-voice">information</h3>
+					<a href="#">Lorem ipsum dolor sit.</a>
+					<a href="#">Lorem ipsum dolor sit.</a>
+					<a href="#">Lorem ipsum dolor sit.</a>
 				</li>
 			</ul>
-		</nav>
+				
 
-		<nav class='x-menu'>
-			<h3 class='strong-voice'>Menu heading here</h3>
+			<ul>
+				<li>
+					<h3 class="strong-voice">company</h3>
+					<a href="#">Lorem ipsum dolor sit.</a>
+					<a href="#">Lorem ipsum dolor sit.</a>
+					<a href="#">Lorem ipsum dolor sit.</a>
+				</li>
+			</ul>
+
+			<ul>
+				<li>
+					<h3 class="strong-voice">subscribe</h3>
+
+					<div class="email-container">
+						<input class="email-input" type="text" placeholder="Email Adress">
+						<a class="button-color" href="">icon</a>
+					</div>
+
+					<p>Gravida sed justo, justo, id est et. Amet tristique convallis sed porttitor nullam eu ut. Duis et odio aliquam bibendum. Metus et lectus id viverra fringilla magna morbi. 
+					</p>
+					
+				</li>
+
+			</ul>
+				
 			
-			<ul>
-				<li>
-					<a href='#'>Some page</a>
-				</li>
-
-				<li>
-					<a href='#'>Some page</a>
-				</li>
-
-				<li>
-					<a href='#'>Some other page</a>
-				</li>
-
-				<li>
-					<a href='#'>Some page</a>
-				</li>
-			</ul>
-		</nav>
-
-		<nav class='x-menu'>
-			<h3 class='strong-voice'>Menu heading here</h3>
-			
-			<ul>
-				<li>
-					<a href='#'>Some page</a>
-				</li>
-
-				<li>
-					<a href='#'>Some page</a>
-				</li>
-
-				<li>
-					<a href='#'>Some other page</a>
-				</li>
-
-				<li>
-					<a href='#'>Some page</a>
-				</li>
-			</ul>
 		</nav>
 
 		
