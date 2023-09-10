@@ -1,11 +1,12 @@
-.hero hero {
+.hero {
 	display: block;
-	padding: 20px;
 	background-image: url('../../assets/default.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+
 
 .hero p{
 	margin-top: 10px;
@@ -40,12 +41,15 @@
 
 @media(min-width: 600px) {
 
+	.hero{
+		height: 65vh;
+	}
 	.hero hero {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		padding: 100px;
-		height: 50vh;
+		
 	}
 
 	.hero hero p {
@@ -64,7 +68,7 @@
 
 /*wavy page*/
 
-.hero.wavy-hero hero {
+.hero.wavy-hero {
 	display: block;
 	background-image: url('../../assets/wavy.png');
 	background-position: bottom;
@@ -78,7 +82,7 @@
 
 
 /*Color page*/
-.hero.color-hero hero {
+.hero.color-hero {
 	display: block;
 	background-image: url('../../assets/color.png');
 	background-position: bottom;
