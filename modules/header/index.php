@@ -28,33 +28,61 @@
 		<header class="sticky-nav">
 
 			<nav>
-				<inner-column>
+				
 
-					<ul>
-						<li class="strong-voice">company</li>
+					<ul class="logo">
+						<li> 
+							<picture>
+								<img src="assets/square.png" alt="">
+							</picture>
+						</li>
 					</ul>
 
-					<ul>
+
+				
+
+						<ul class="site-links">
 						<li>
-							<a href="../index.php">home</a>
+							<a class="calm-voice" href="index.php">home</a>
 						</li>
 
 						<li>
-							<a href="page-2.php">about</a>
+							<a class="calm-voice" href="page-2.php">updates</a>
 						</li>
 
 						<li>
-							<a href="page-3.php">store</a>
+							<a class="calm-voice" href="page-3.php">services</a>
 						</li>
 
 						<li>
-							<a href="">contact</a>
+							<a class="calm-voice" href="">features</a>
+						</li>
+
+						<li>
+							<a class="calm-voice" href="">about us</a>
 						</li>
 						
 
 					</ul>
+						
+	
+					
 
-				</inner-column>
+					<ul class="signin">
+						<li>
+							<picture>
+								<img src="assets/square.png" alt="">
+							</picture>
+							<p class="calm-voice">EN</p>
+						</li>
+						
+						<li>
+							<a class="calm-voice button-color" href="#">signup</a>
+							<a class="calm-voice button-default" class="button-color" href="#">login</a>
+						</li>
+					</ul>
+
+				
 			</nav>
 
 		</header>
