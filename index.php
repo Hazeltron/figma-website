@@ -1,5 +1,6 @@
 <section class="header">
 	<inner-column>
+
 		<?php include('modules/header/index.php') ?>
 		
 	</inner-column>
@@ -11,7 +12,7 @@
 <section class="hero">
 	<inner-column>
 
-		<?php include('modules/hero/index.php'); ?>
+		<?php include('modules/hero/index.php') ?>
 
 	</inner-column>
 </section>
@@ -55,12 +56,13 @@
 
 
 </main>
-<section class="footer">
+<footer class="footer">
 	<inner-column>
 
 		<?php include('modules/footer/index.php') ?>
+
 	</inner-column>
-</section>
+</footer>
 
 
 

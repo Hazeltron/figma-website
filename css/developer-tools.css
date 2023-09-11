@@ -1,5 +1,5 @@
 
-body * {
+/*body * {
 	border: 1px solid hsl(200, 100%, 80%);
 	padding: 2px;
 }
@@ -7,7 +7,7 @@ body * {
 body inner-column {
 	border: 1px solid hsl(360, 100%, 80%);
 	padding: 2px;
-}
+}*/
 
 /*section:nth-of-type(odd) {
 	background-color: rgba(0,0,0,.03);
