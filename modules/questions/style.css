@@ -99,3 +99,15 @@ questions-dropdown {
 	}
 
 }
+
+
+.faq-list-container {
+	summary {
+		display: flex;
+		justify-content: space-between; //why did turning on flex hide the default details marker???
+		cursor: pointer;
+	}
+	details[open] {
+			border: 2px solid pink;
+		}
+} //close .faq-list-container

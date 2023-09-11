@@ -18,19 +18,18 @@
 
 		<li class="dropdown">
 
-		<header class="question-title">
+			<details class=“faq-card”>
+			<summary class=“medium-voice”>
+				<?=$question['header']?>
+				<span class=“dropdown”>+</span>
+			</summary>
+			<p class=“small-voice”><?=$question['copy']?></p>
+			</details>
 
-			<h3 class="strong-voice"><?=$question['header']?></h3>
-		<picture class="icon">
-			<img src="assets/square.png" alt="">
-		</picture>
-			
-		</header>
-
-			<p><?=$question['copy']?></p>
-	
-	
 		</li>
+
+
+		
 
 		<?php } ?>
 
@@ -39,3 +38,4 @@
 	</questions-dropdown>
 
 </questions-container>
+
