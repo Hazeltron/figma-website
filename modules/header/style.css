@@ -35,35 +35,27 @@
 	padding: 10px;
 }
 
-.header .logo {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-
-
-
-
 .header nav {
 	padding: 10px 0px 10px 0px;
 }
 
 @media (min-width: 600px) {
 	.header nav {
-		display: grid;
-		grid-template-areas:
+		
+
+	/*	grid-template-areas:
 
 		"logo  sitelink  signin"
 		; 
-
+*/
 		
-		/*display: flex;
+		display: flex;
 		flex-direction: row;
 		align-items: center;
-		justify-content: space-between;*/
+		justify-content: space-between;
 
 	}
-	.header .logo {
+	/*.header .logo {
 		grid-area: logo;
 	}
 
@@ -78,6 +70,6 @@
 	.header .signin {
 		justify-content: flex-end;
 	}
-
+*/
 
 }

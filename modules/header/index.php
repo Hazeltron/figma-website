@@ -28,59 +28,52 @@
 		<header class="sticky-nav">
 
 			<nav>
+	
+				<picture class="logo">
+					<img src="assets/square.png" alt="">
+				</picture>
+	
+
+				<ul class="site-links">
+					<li>
+						<a class="calm-voice" href="index.php">home</a>
+					</li>
+
+					<li>
+						<a class="calm-voice" href="page-2.php">updates</a>
+					</li>
+
+					<li>
+						<a class="calm-voice" href="page-3.php">services</a>
+					</li>
+
+					<li>
+						<a class="calm-voice" href="">features</a>
+					</li>
+
+					<li>
+						<a class="calm-voice" href="">about us</a>
+					</li>
 				
 
-					<ul class="logo">
-						<li> 
-							<picture>
-								<img src="assets/square.png" alt="">
-							</picture>
-						</li>
-					</ul>
-
-
-				
-
-						<ul class="site-links">
-						<li>
-							<a class="calm-voice" href="index.php">home</a>
-						</li>
-
-						<li>
-							<a class="calm-voice" href="page-2.php">updates</a>
-						</li>
-
-						<li>
-							<a class="calm-voice" href="page-3.php">services</a>
-						</li>
-
-						<li>
-							<a class="calm-voice" href="">features</a>
-						</li>
-
-						<li>
-							<a class="calm-voice" href="">about us</a>
-						</li>
-						
-
-					</ul>
+				</ul>
 						
 	
 					
 
-					<ul class="signin">
-						<li>
-							<picture>
-								<img src="assets/square.png" alt="">
-							</picture>
-							<p class="calm-voice">EN</p>
-						</li>
-						
-						<li>
-							<a class="calm-voice button-color" href="#">signup</a>
-							<a class="calm-voice button-default" class="button-color" href="#">login</a>
-						</li>
-					</ul>
+				<ul class="signin">
+					<li>
+						<picture>
+							<img src="assets/square.png" alt="">
+						</picture>
+						<p class="calm-voice">EN</p>
+					</li>
+					
+					<li>
+						<a class="calm-voice button-color" href="#">signup</a>
+						<a class="calm-voice button-default" class="button-color" href="#">login</a>
+					</li>
+				</ul>
 
 				
 			</nav>
