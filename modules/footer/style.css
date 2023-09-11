@@ -1,12 +1,10 @@
 
 
-
-.footer .site-menu{
-/*	border: white solid 3px;*/
+.footer .site-menu {
+	padding: 40px;
 }
-
-.footer .x-menu{
-/*	border: red solid 3px;*/
+.footer picture{
+	max-width: 40px;
 }
 
 .footer .email-container {
@@ -14,60 +12,120 @@
 	flex-direction: row;
 }
 
-	.footer .site-menu{
-		display: grid;
-		grid-template-areas: 
-		"product	info"
-		"company 	subscribe"
-		;
-	}
+
+.footer .footer-grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 1fr);
+	gap: 10px;
+/*	border: lime solid 10px;*/
+}
 
 
 
-	.footer ul:nth-of-type(1) {
-		grid-area: product;
-	}
-	.footer ul:nth-of-type(2) {
-		grid-area: info;
-	}
+.footer .footer-bottom {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
 
-	.footer ul:nth-of-type(3) {
-		grid-area: company;
-	}
+.footer .legal li{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
 
-	.footer ul:nth-of-type(4) {
-		grid-area: subscribe;
+}
+
+.footer .social-media li{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+.footer ul:nth-of-type(4) {
+	background-color: #f0f3fc;
+		
 	}
 
 
 
 @media (min-width: 600px){
-	.footer .site-menu{
-		display: grid;
+	.footer .footer-grid{
+		grid-template-areas: 
+		"product	info"
+		"company subscribe"
+		;
+		gap: 20px;
+	}
+
+	.footer ul:nth-of-type(1) {
+		padding-top: 40px;
+		
+	}
+
+	.footer ul:nth-of-type(2) {
+		padding-top: 40px;
+		
+	}
+
+	.footer ul:nth-of-type(3) {
+		padding-top: 40px;
+		
+	}
+
+	.footer ul:nth-of-type(4) {
+		padding: 40px ;
+		
+	}
+
+		
+
+}
+
+@media (min-width: 1000px) {
+	.footer .footer-grid{
 		grid-template-areas: 
 		"product	info	company 	subscribe"
 		;
+		gap: 20px;
 	}
-
-
 
 	.footer ul:nth-of-type(1) {
 		grid-area: product;
+		
 	}
 	.footer ul:nth-of-type(2) {
 		grid-area: info;
+		
 	}
 
 	.footer ul:nth-of-type(3) {
 		grid-area: company;
+		
 	}
 
 	.footer ul:nth-of-type(4) {
 		grid-area: subscribe;
+		
 	}
+}
 
+/*Wavy page*/
+.footer.wavy-footer{
+	background-color: #4062e1;
 
+}
 
+.footer.wavy-footer li{
+	color: white;
+}
+
+.footer.wavy-footer li a{
+	color: white;
+}
+
+.footer.wavy-footer ul:nth-of-type(4) {
+	background-color: #3250db;
 }
 
 
