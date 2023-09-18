@@ -232,7 +232,17 @@ var food = [
     buildMenu(inStock, "Our menu for tonight: ");
 
 
+var body = document.querySelector('body');
 
+// add a listener to the whole body!
+body.addEventListener('click', function(event) {
+
+    // if the click happens on the toggle button...
+    if ( event.target.matches('[rel="toggle"]') ) {
+        body.classList.toggle('menu-open');
+    }
+
+});
    
 
 
