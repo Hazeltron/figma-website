@@ -9,6 +9,11 @@
 		<a class="get-started button-color" href="#">get started</a>
 		<a class="trial button-default" href="#">start free trial</a>
 		<a class="signup button-default" href="">signup</a>
+		<div class="icon">
+			<?php 
+			include('assets/message.svg')
+			?>
+		</div>
 		<input class="email-input"type="text" placeholder="Email Adress">
 		
 	</button-box>

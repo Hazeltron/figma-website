@@ -72,7 +72,7 @@
 					<li>
 
 						<picture>
-							<img src="assets/square.png" alt="">
+							<img src="assets/logo.svg" alt="">
 						</picture>
 
 					</li>

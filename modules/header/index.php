@@ -29,9 +29,9 @@
 
 			<nav>
 	
-				<picture class="logo">
-					<img src="assets/square.png" alt="">
-				</picture>
+				<div class="logo">
+					<?php include('assets/logo.svg')?>
+				</div>
 	
 
 				<ul class="site-links">
@@ -63,9 +63,10 @@
 
 				<ul class="signin">
 					<li>
-						<picture>
-							<img src="assets/square.png" alt="">
-						</picture>
+						<div class="globe">
+							<?php include('assets/globe.svg') ?>
+						</div>
+						
 						<p class="calm-voice">EN</p>
 					</li>
 					
